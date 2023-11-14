@@ -1,3 +1,4 @@
+
 const ShoeCard = ({imgURL , changeBigShoeImage , bigShoeImage}) => {
  const  handleClick = () => {
     if(bigShoeImage !== imgURL.bigShoe){
@@ -19,3 +20,6 @@ onClick={handleClick}>
 }
 
 export default ShoeCard
+
+
+
