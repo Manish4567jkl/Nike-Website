@@ -4,7 +4,7 @@ import { bigShoe1 } from "../assets/images"
 import Button from "../components/Button"
 import ShoeCard from "../components/ShoeCard"
 import {shoes, statistics} from '../links'
-//! check the spelling of big shoe image if errors occours 
+//! check import settings 
 const Hero = () => {
   const [bigShoeImage , setBigShoeImage] = useState(bigShoe1);
   return (

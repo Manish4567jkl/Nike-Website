@@ -5,9 +5,9 @@ const Button = ({label , iconURL}) => {
      leading-none bg-[crimson] text-white rounded-full border-[crimson]"
     >
         {label}
-        <img src={iconURL} alt="arrow icon" 
+       {iconURL && <img src={iconURL} alt="arrow icon" 
         className="ml-2 rounded-full w-5 h-5"
-        />
+        />}
     </button>
   )
 }
